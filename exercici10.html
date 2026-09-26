@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre</title>
+</head>
+
+<body>
+
+    <h1>Crear un compte</h1>
+
+    <form action="#" method="post">
+
+        <label for="nom">Nom:</label><br>
+        <input
+            type="text"
+            id="nom"
+            name="nom"
+            placeholder="Escriu el teu nom"
+            required
+        >
+        <br><br>
+
+        <label for="email">Correu electronic:</label><br>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Escriu el teu correu"
+            required
+        >
+        <br><br>
+
+        <label for="password">Contrasenya:</label><br>
+        <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Escriu una contrasenya"
+            required
+            minlength="8"
+        >
+        <br><br>
+
+        <input
+            type="checkbox"
+            id="condicions"
+            name="condicions"
+            required
+        >
+
+        <label for="condicions">
+            Accepto els termes i condicions
+        </label>
+
+        <br><br>
+
+        <input type="submit" value="Registrar-me">
+
+    </form>
+
+</body>
+</html>
